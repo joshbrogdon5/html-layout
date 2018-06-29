@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgray;
+    background-size: cover;
+    height: 100vh;
+    width: 100%
+}
+header {
+    background-color: rgb(58, 58, 58);
+    height: 100px;
+    width: 100%;
+}
+#left {
+    background-color: antiquewhite;
+    float: left;
+    height: calc( 100vh - 120px );
+    width: 10%;
+}
+#right {
+    background-color: antiquewhite;
+    width: 10%;
+    height: calc( 100vh - 120px );
+    float: right;
+
+}
+footer {
+    background-color: rgb(58, 58, 58);
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 135px;
+}
